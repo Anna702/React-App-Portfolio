@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Grin And Gin",
     "pitch": "designed to simplify cocktail mixing and culinary pairing",
-    "image": "link to image",
+    "image": "https://github.com/Anna702/GrinAndGin/raw/main/Images/screencapture-full-page.png",
     "deployedLink": "https://anna702.github.io/GrinAndGin/",
     "repoLink": "https://github.com/Anna702/GrinAndGin"
   },
@@ -11,9 +11,40 @@
     "id": 2,
     "title": "Bootstrap Portfolio",
     "pitch": "showcasing Bootstrap/HTML/CSS skills",
-    "image": "link to image",
+    "image": "https://github.com/Anna702/Bootstrap_Portfolio/raw/main/images/Screenshot%20Anna%20Chernova%20-%20software%20developer.png",
     "deployedLink": "https://anna702.github.io/Bootstrap_Portfolio/",
     "repoLink": "https://github.com/Anna702/Bootstrap_Portfolio"
+  },
+  {
+    "id": 3,
+    "title": "Code Quiz",
+    "pitch": "timed coding quiz",
+    "image": "https://github.com/Anna702/Web_APIs_Code_Quiz/raw/main/sfx/code-quiz.gif",
+    "deployedLink": "https://anna702.github.io/Web_APIs_Code_Quiz/",
+    "repoLink": "https://github.com/Anna702/Web_APIs_Code_Quiz"
+  },
+  {
+    "id": 4,
+    "title": "Password Generator",
+    "pitch": "generate a random password based on criteria",
+    "image": "https://github.com/Anna702/Password-generator/raw/main/assets/page-screenshot.png",
+    "deployedLink": "https://anna702.github.io/Password-generator/",
+    "repoLink": "https://github.com/Anna702/Password-generator"
+  },
+  {
+    "id": 5,
+    "title": "HTML/CSS Portfolio",
+    "pitch": "pure CSS styled page",
+    "image": "https://github.com/Anna702/portfolio_page/raw/main/starter/images/Anna_Chernova_portfolio.png",
+    "deployedLink": "https://anna702.github.io/portfolio_page/",
+    "repoLink": "https://github.com/Anna702/portfolio_page"
+  },
+  {
+    "id": 6,
+    "title": "Finances Console",
+    "pitch": "analyzing the financial records with the financial dataset provided by client",
+    "image": "https://github.com/Anna702/Console-Finances/raw/main/console-finances-screenshot.png",
+    "deployedLink": "https://anna702.github.io/Console-Finances/",
+    "repoLink": "https://github.com/Anna702/Console-Finances"
   }
 ]
-
