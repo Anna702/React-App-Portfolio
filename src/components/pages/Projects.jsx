@@ -1,5 +1,5 @@
 import CardProject from "../ProjectCard";
-import projects from "../projects.json";
+import projects from "../../projects.json";
 
 const Projects = () => {
   return (
