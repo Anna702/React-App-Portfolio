@@ -1,39 +1,47 @@
-import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import { Link } from "react-router-dom"; 
-import { House, ArrowUpCircle, PersonCircle } from "react-bootstrap-icons"; // Icons from React Bootstrap
+import { useState, useEffect } from "react";
+import { ArrowUpCircle } from "react-bootstrap-icons";
+import { Navbar, Container, Nav, Row, Col } from "react-bootstrap";
 
 function Footer() {
+  const [showButton, setShowButton] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 100) {
+      setShowButton(true);
+    } else {
+      setShowButton(false);
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []); // Add empty dependency array to run the effect only once
+
   return (
     <Navbar fixed="bottom" bg="light" variant="light">
       <Container>
-        <Row className="justify-content-center">
-          <Col xs={12} className="text-center">
-            <Nav>
-              <Nav.Item>
-                <Link to="/" className="nav-link">
-                  <House size={24} />
-                </Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Link to="/projects" className="nav-link">
-                  <ArrowUpCircle size={24} />
-                </Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Link to="/contacts" className="nav-link">
-                  <PersonCircle size={24} />
-                </Link>
-              </Nav.Item>
-            </Nav>
+        <Row className="justify-content-end">
+          <Col xs="auto" style={{ marginLeft: "20px" }}>
+            <ArrowUpCircle
+              size={24}
+              onClick={scrollToTop}
+              style={{ display: showButton ? "block" : "none" }}
+            />
           </Col>
         </Row>
         <Row className="justify-content-center">
-          <Col xs={12} className="text-center">
-            <Navbar.Text style={{ fontSize: "smaller" }}>
+          <Col>
+            <Navbar.Text
+              style={{ fontSize: "smaller" }}
+              className="text-center"
+            >
               © 2024 Anna Chernova
             </Navbar.Text>
           </Col>
