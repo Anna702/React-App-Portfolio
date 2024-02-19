@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Grin And Gin",
     "pitch": "designed to simplify cocktail mixing and culinary pairing",
-    "image": "-",
+    "image": "link to image",
     "deployedLink": "https://anna702.github.io/GrinAndGin/",
     "repoLink": "https://github.com/Anna702/GrinAndGin"
   },
@@ -11,8 +11,9 @@
     "id": 2,
     "title": "Bootstrap Portfolio",
     "pitch": "showcasing Bootstrap/HTML/CSS skills",
-    "image": "-",
+    "image": "link to image",
     "deployedLink": "https://anna702.github.io/Bootstrap_Portfolio/",
     "repoLink": "https://github.com/Anna702/Bootstrap_Portfolio"
   }
 ]
+
