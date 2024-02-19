@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename={`/react-app-portfolio`}>
+    <Router basename={`/React-App-Portfolio`}>
       <MyNavBar />
       <Routes>
         <Route path="/" element={<Home />} />
