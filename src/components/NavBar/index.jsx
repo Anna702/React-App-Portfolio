@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import logo from "../../../public/images/header logo pic.png";
 
 function MyNavBar() {
   return (
@@ -14,7 +15,7 @@ function MyNavBar() {
         <Container>
           <Navbar.Brand href="./">
             <img
-              src="public/images/header logo pic.png"
+              src={logo}
               alt="Anna Chernova logo"
               style={{ maxHeight: "50px", marginRight: "10px" }}
             />
