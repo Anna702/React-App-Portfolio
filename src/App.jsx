@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { About, Home, Custom404, Contacts, Projects } from "./components/pages";
 import MyNavBar from "./components/NavBar";
 import Footer from "./components/Footer";
@@ -8,7 +8,9 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename={`/React-App-Portfolio`}>
+    <BrowserRouter
+      basename={import.meta.env.DEV ? "/" : "/React-App-Portfolio/"}
+    >
       <MyNavBar />
       <Routes>
         <Route
@@ -54,7 +56,7 @@ function App() {
       </Routes>
       <FooterBtns />
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
 
