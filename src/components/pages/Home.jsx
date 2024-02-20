@@ -1,5 +1,8 @@
 import avatar from "../../../public/images/anna-chernova-pic.png";
 import PageWrapper from "../PageWrapper";
+import Image from "react-bootstrap/Image";
+import click from "../../../public/images/clickHere.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -18,6 +21,10 @@ const Home = () => {
           </mark>{" "}
           and enrolled in a Front-end Development bootcamp with EdX.
         </p>
+        <h2> Welcome to my Portfolio page</h2>
+        <Link to="./portfolio">
+          <Image src={click} roundedCircle />
+        </Link>
       </PageWrapper>
     </>
   );
