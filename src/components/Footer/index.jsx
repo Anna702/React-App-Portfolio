@@ -25,7 +25,11 @@ function Footer() {
   }, []); // Add empty dependency array to run the effect only once
 
   return (
-    <Navbar fixed="bottom" bg="light" variant="light">
+    <Navbar
+      fixed="bottom"
+      style={{ backgroundColor: "#ea6e3a", color: "black" }}
+      variant="light"
+    >
       <Container>
         <Row className="justify-content-end">
           <Col xs="auto" style={{ marginLeft: "20px" }}>
@@ -39,7 +43,7 @@ function Footer() {
         <Row className="justify-content-center">
           <Col>
             <Navbar.Text
-              style={{ fontSize: "smaller" }}
+              style={{ fontSize: "smaller", color: "black" }}
               className="text-center"
             >
               © 2024 Anna Chernova
