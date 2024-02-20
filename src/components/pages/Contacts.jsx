@@ -1,7 +1,15 @@
+import PageWrapper from "../PageWrapper";
+
 const Contacts = () => {
   return (
     <>
-      <h1>Contact me via email</h1>
+      <PageWrapper>
+        <h1>Contact me</h1>
+        <p>
+          In case you have any questions, feel free to contact me via any
+          convenient method.
+        </p>
+      </PageWrapper>
     </>
   );
 };

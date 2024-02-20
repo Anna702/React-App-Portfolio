@@ -25,33 +25,37 @@ function Footer() {
   }, []); // Add empty dependency array to run the effect only once
 
   return (
-    <Navbar
-      fixed="bottom"
-      style={{ backgroundColor: "#ea6e3a", color: "black" }}
-      variant="light"
-    >
-      <Container>
-        <Row className="justify-content-end">
-          <Col xs="auto" style={{ marginLeft: "20px" }}>
-            <ArrowUpCircle
-              size={24}
-              onClick={scrollToTop}
-              style={{ display: showButton ? "block" : "none" }}
-            />
-          </Col>
-        </Row>
-        <Row className="justify-content-center">
-          <Col>
-            <Navbar.Text
-              style={{ fontSize: "smaller", color: "black" }}
-              className="text-center"
-            >
-              © 2024 Anna Chernova
-            </Navbar.Text>
-          </Col>
-        </Row>
-      </Container>
-    </Navbar>
+    <>
+      <div style={{ height: "50px" }}></div>
+
+      <Navbar
+        fixed="bottom"
+        style={{ backgroundColor: "#ea6e3a", color: "black" }}
+        variant="light"
+      >
+        <Container>
+          <Row className="justify-content-end">
+            <Col xs="auto" style={{ marginLeft: "20px" }}>
+              <ArrowUpCircle
+                size={24}
+                onClick={scrollToTop}
+                style={{ display: showButton ? "block" : "none" }}
+              />
+            </Col>
+          </Row>
+          <Row className="justify-content-center">
+            <Col>
+              <Navbar.Text
+                style={{ fontSize: "smaller", color: "black" }}
+                className="text-center"
+              >
+                © 2024 Anna Chernova
+              </Navbar.Text>
+            </Col>
+          </Row>
+        </Container>
+      </Navbar>
+    </>
   );
 }
 

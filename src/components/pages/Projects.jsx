@@ -4,7 +4,6 @@ import Col from "react-bootstrap/Col";
 import projects from "../../projects.json";
 import { Button } from "react-bootstrap";
 import PageWrapper from "../PageWrapper";
-import FooterBtns from "../FooterBtns";
 
 const Projects = () => {
   return (
@@ -81,7 +80,6 @@ const Projects = () => {
             </Col>
           ))}
         </Row>
-        <FooterBtns />
       </PageWrapper>
     </>
   );

@@ -3,6 +3,7 @@ import { About, Home, Custom404, Contacts, Projects } from "./components/pages";
 import MyNavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import PageWrapper from "./components/PageWrapper";
+import FooterBtns from "./components/FooterBtns";
 import "./App.css";
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
           }
         />
       </Routes>
+      <FooterBtns />
       <Footer />
     </Router>
   );
