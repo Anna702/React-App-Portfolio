@@ -9,15 +9,14 @@ const Home = () => {
         <img src={avatar} alt="Anna Chernova avatar" className="img-fluid" />
         <div style={{ marginBottom: "25px" }}></div>
         <p>
-          Iam a novice <mark className="textMarks">software developer</mark>{" "}
+          I am a novice <mark className="textMarks">software developer</mark>{" "}
           with a 15-year background in journalism and PR. After graduating from
-          a Northcoders Software Development bootcamp in 2023, I dove headfirst
-          into the world of{" "}
+          a Northcoders Software Development bootcamp in 2023, I continued to
+          work with{" "}
           <mark className="textMarks">
-            HTML, CSS, JavaScript, and React/React Native
-          </mark>
-          . Then I hungered for more knowledge and enrolled in a Front-end
-          Development bootcamp with EdX.
+            HTML, CSS, JavaScript and React/React Native
+          </mark>{" "}
+          and enrolled in a Front-end Development bootcamp with EdX.
         </p>
       </PageWrapper>
     </>
