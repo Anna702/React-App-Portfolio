@@ -56,14 +56,14 @@ const Projects = () => {
                   <Button
                     variant="success"
                     href={project.deployedLink}
-                    style={{ margin: "10px", backgroundColor: "#547258" }}
+                    style={{ border: "none" , margin: "10px", backgroundColor: "#ea6e3a" }}
                   >
                     Deployed app
                   </Button>
                   <Button
                     variant="success"
                     href={project.repoLink}
-                    style={{ margin: "10px", backgroundColor: "#547258" }}
+                    style={{ border: "none" , margin: "10px", backgroundColor: "#ea6e3a" }}
                   >
                     GitHub repo
                   </Button>
