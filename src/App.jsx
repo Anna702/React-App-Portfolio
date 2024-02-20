@@ -8,7 +8,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename={`/React-App-Portfolio`}>
       <MyNavBar />
       <Routes>
         <Route
@@ -51,9 +51,9 @@ function App() {
             </PageWrapper>
           }
         />
+        <FooterBtns />
+        <Footer />
       </Routes>
-      <FooterBtns />
-      <Footer />
     </Router>
   );
 }
