@@ -51,9 +51,9 @@ function App() {
             </PageWrapper>
           }
         />
-        <FooterBtns />
-        <Footer />
       </Routes>
+      <FooterBtns />
+      <Footer />
     </Router>
   );
 }
