@@ -21,10 +21,50 @@ function MyNavBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="./">Home</Nav.Link>
-            <Nav.Link href="./about">About me</Nav.Link>
-            <Nav.Link href="./portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="./contacts">Contacts</Nav.Link>
+            <Nav.Link
+              href="./"
+              style={{
+                margin: "5px",
+                backgroundColor: "#fbf2b3",
+                borderRadius: "5px",
+                color: "black",
+              }}
+            >
+              Home
+            </Nav.Link>
+            <Nav.Link
+              href="./about"
+              style={{
+                margin: "5px",
+                backgroundColor: "#fbf2b3",
+                borderRadius: "5px",
+                color: "black",
+              }}
+            >
+              About me
+            </Nav.Link>
+            <Nav.Link
+              href="./portfolio"
+              style={{
+                margin: "5px",
+                backgroundColor: "#fbf2b3",
+                borderRadius: "5px",
+                color: "black",
+              }}
+            >
+              Portfolio
+            </Nav.Link>
+            <Nav.Link
+              href="./contacts"
+              style={{
+                margin: "5px",
+                backgroundColor: "#fbf2b3",
+                borderRadius: "5px",
+                color: "black",
+              }}
+            >
+              Contacts
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
