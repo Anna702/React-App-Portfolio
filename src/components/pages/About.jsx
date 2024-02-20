@@ -1,5 +1,6 @@
 import PageWrapper from "../PageWrapper";
 import { ListGroup } from "react-bootstrap";
+import FooterBtns from "../FooterBtns";
 
 const About = () => {
   return (
@@ -67,6 +68,7 @@ const About = () => {
           the EU with Italian citizenship, and have Russian citizenship with the
           right to work in Russia.
         </p>
+        <FooterBtns />
       </PageWrapper>
     </>
   );

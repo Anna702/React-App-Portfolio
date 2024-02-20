@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import projects from "../../projects.json";
 import { Button } from "react-bootstrap";
 import PageWrapper from "../PageWrapper";
+import FooterBtns from "../FooterBtns";
 
 const Projects = () => {
   return (
@@ -56,14 +57,22 @@ const Projects = () => {
                   <Button
                     variant="success"
                     href={project.deployedLink}
-                    style={{ border: "none" , margin: "10px", backgroundColor: "#ea6e3a" }}
+                    style={{
+                      border: "none",
+                      margin: "10px",
+                      backgroundColor: "#ea6e3a",
+                    }}
                   >
                     Deployed app
                   </Button>
                   <Button
                     variant="success"
                     href={project.repoLink}
-                    style={{ border: "none" , margin: "10px", backgroundColor: "#ea6e3a" }}
+                    style={{
+                      border: "none",
+                      margin: "10px",
+                      backgroundColor: "#ea6e3a",
+                    }}
                   >
                     GitHub repo
                   </Button>
@@ -72,6 +81,7 @@ const Projects = () => {
             </Col>
           ))}
         </Row>
+        <FooterBtns />
       </PageWrapper>
     </>
   );
