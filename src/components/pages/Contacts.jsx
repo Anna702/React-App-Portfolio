@@ -3,6 +3,7 @@ import PageWrapper from "../PageWrapper";
 import { Container, Form, Button, Modal } from "react-bootstrap";
 import emailjs from "emailjs-com";
 
+// import email config
 const SERVICE_ID = import.meta.env.VITE_EMAIL_SERVICE_ID;
 const TEMPLATE_ID = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
 const PUBLIC_KEY = import.meta.env.VITE_EMAIL_PUBLIC_KEY;
