@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://anna702.github.io/React-App-Portfolio/",
+  "homepage": "https://chernova.netlify.app/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
