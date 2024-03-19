@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faFileDownload } from "@fortawesome/free-solid-svg-icons";
 import { Button } from "react-bootstrap";
-import CV from "../../../public/images/Anna Chernova_junior software developer_CV.pdf";
+import CV from "../../../public/images/Anna Chernova CV.pdf";
 
 const ContactBtns = () => {
   return (
