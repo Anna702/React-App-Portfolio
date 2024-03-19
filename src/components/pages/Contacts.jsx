@@ -34,10 +34,9 @@ const Contacts = () => {
       <PageWrapper>
         <h1>Contact me</h1>
         <p>
-          In case you have any questions, feel free to contact me via any
-          convenient method.
+          Feel free to contact me via any convenient method below.
         </p>
-        <Container className="contact-container">
+        {/* <Container className="contact-container">
           <h3>Contact Us</h3>
           <Form ref={form} onSubmit={sendEmail}>
             <Form.Group className="text-start mb-3">
@@ -88,7 +87,7 @@ const Contacts = () => {
               </Modal.Footer>
             </Modal>
           </Form>
-        </Container>
+        </Container> */}
       </PageWrapper>
     </>
   );
