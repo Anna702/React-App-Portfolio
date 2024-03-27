@@ -1,11 +1,12 @@
-[  {
-  "id": 1,
-  "title": "AnswerSphere",
-  "pitch": "A magical pendulum (powered by OpenAI) for those awaiting signs from above (Group Project)",
-  "image": "https://github.com/nyitrai87/answersphere/blob/main/public/images/mockup.jpg",
-  "deployedLink": "https://answersphere.netlify.app",
-  "repoLink": "https://github.com/nyitrai87/answersphere"
-},
+[
+  {
+    "id": 1,
+    "title": "AnswerSphere",
+    "pitch": "A magical pendulum (powered by OpenAI) for those awaiting signs from above (Group Project)",
+    "image": "public/images/Cover.jpg",
+    "deployedLink": "https://answersphere.netlify.app",
+    "repoLink": "https://github.com/nyitrai87/answersphere"
+  },
   {
     "id": 2,
     "title": "Grin And Gin",
