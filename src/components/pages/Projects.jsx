@@ -44,6 +44,7 @@ const Projects = () => {
                 <Card.Img
                   variant="top"
                   src={project.image}
+                  alt={project.alt}
                   style={{
                     height: "300px",
                     objectFit: "cover",
