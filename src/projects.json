@@ -3,7 +3,7 @@
     "id": 1,
     "title": "AnswerSphere",
     "pitch": "A magical pendulum (powered by OpenAI) for those awaiting signs from above (Group Project)",
-    "image": "public/images/Cover.jpg",
+    "image": "/images/Cover.jpg",
     "alt": "Image for AnswerSphere project",
     "deployedLink": "https://answersphere.netlify.app",
     "repoLink": "https://github.com/nyitrai87/answersphere"
