@@ -1,14 +1,21 @@
-[
+[  {
+  "id": 1,
+  "title": "AnswerSphere",
+  "pitch": "A magical pendulum (powered by OpenAI) for those awaiting signs from above (Group Project)",
+  "image": "https://github.com/nyitrai87/answersphere/blob/main/public/images/mockup.jpg",
+  "deployedLink": "https://answersphere.netlify.app",
+  "repoLink": "https://github.com/nyitrai87/answersphere"
+},
   {
-    "id": 1,
+    "id": 2,
     "title": "Grin And Gin",
-    "pitch": "Designed to simplify cocktail mixing and culinary pairing",
+    "pitch": "Designed to simplify cocktail mixing and culinary pairing (Group Project)",
     "image": "https://github.com/Anna702/GrinAndGin/raw/main/Images/screencapture-full-page.png",
     "deployedLink": "https://anna702.github.io/GrinAndGin/",
     "repoLink": "https://github.com/Anna702/GrinAndGin"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Bootstrap Portfolio",
     "pitch": "Showcasing Bootstrap/HTML/CSS skills",
     "image": "https://github.com/Anna702/Bootstrap_Portfolio/raw/main/images/Screenshot%20Anna%20Chernova%20-%20software%20developer.png",
@@ -16,7 +23,7 @@
     "repoLink": "https://github.com/Anna702/Bootstrap_Portfolio"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Code Quiz",
     "pitch": "Timed coding quiz",
     "image": "https://github.com/Anna702/Web_APIs_Code_Quiz/raw/main/sfx/code-quiz.gif",
@@ -24,7 +31,7 @@
     "repoLink": "https://github.com/Anna702/Web_APIs_Code_Quiz"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Password Generator",
     "pitch": "Generate a random password based on criteria",
     "image": "https://github.com/Anna702/Password-generator/raw/main/assets/page-screenshot.png",
@@ -32,7 +39,7 @@
     "repoLink": "https://github.com/Anna702/Password-generator"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "HTML/CSS Portfolio",
     "pitch": "Pure CSS styled page",
     "image": "https://github.com/Anna702/portfolio_page/raw/main/starter/images/Anna_Chernova_portfolio.png",
@@ -40,7 +47,7 @@
     "repoLink": "https://github.com/Anna702/portfolio_page"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Finances Console",
     "pitch": "Analyzing the financial records with the financial dataset provided by client",
     "image": "https://github.com/Anna702/Console-Finances/raw/main/console-finances-screenshot.png",
