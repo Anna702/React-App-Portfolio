@@ -32,7 +32,7 @@ const ContactBtns = () => {
         style={{ margin: "5px" }}
         variant="outline-success"
         href={CV}
-        download="Anna_Chernova_CV.pdf"
+        download="Anna_Chernova_frontend_CV.pdf"
       >
         <FontAwesomeIcon icon={faFileDownload} /> Download CV
       </Button>
